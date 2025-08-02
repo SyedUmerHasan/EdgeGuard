@@ -129,6 +129,7 @@ class EdgeGuard:
         
         print(f"\n[{datetime.now()}] 🔍 Analyzing {self.packet_count} packets...")
         print(f"📊 Routing Summary: {routing_summary['total_flows']} flows, {routing_summary['suspicious_count']} suspicious")
+        print(f"🌐 Top Talkers: {list(routing_summary['top_talkers'].keys())[:3]}")  # Show top 3
         
         # Enhanced logging with routing details
         if routing_summary['suspicious_patterns']:
