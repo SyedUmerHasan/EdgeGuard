@@ -101,21 +101,21 @@ class DeviceDiscovery:
         # Common device patterns
         if any(x in hostname_lower for x in ['iphone', 'ipad', 'apple']):
             return 'iOS Device'
-        elif any(x in hostname_lower for x in ['android', 'samsung', 'pixel']):
+        elif any(x in hostname_lower for x in ['android', 'samsung', 'pixel', 'oneplus']):
             return 'Android Device'
-        elif any(x in hostname_lower for x in ['laptop', 'desktop', 'pc', 'macbook']):
+        elif any(x in hostname_lower for x in ['laptop', 'desktop', 'pc', 'macbook', 'imac']):
             return 'Computer'
-        elif any(x in hostname_lower for x in ['router', 'gateway', 'modem']):
+        elif any(x in hostname_lower for x in ['router', 'gateway', 'modem', 'access-point']):
             return 'Network Equipment'
-        elif any(x in hostname_lower for x in ['tv', 'roku', 'chromecast', 'firestick']):
+        elif any(x in hostname_lower for x in ['tv', 'roku', 'chromecast', 'firestick', 'appletv']):
             return 'Smart TV/Streaming'
-        elif any(x in hostname_lower for x in ['alexa', 'echo', 'google', 'nest']):
+        elif any(x in hostname_lower for x in ['alexa', 'echo', 'google', 'nest', 'homepod']):
             return 'Smart Speaker'
-        elif any(x in hostname_lower for x in ['camera', 'doorbell', 'security']):
+        elif any(x in hostname_lower for x in ['camera', 'doorbell', 'security', 'ring']):
             return 'Security Device'
-        elif any(x in hostname_lower for x in ['thermostat', 'hvac']):
+        elif any(x in hostname_lower for x in ['thermostat', 'hvac', 'ecobee']):
             return 'Smart Thermostat'
-        elif any(x in hostname_lower for x in ['light', 'bulb', 'switch']):
+        elif any(x in hostname_lower for x in ['light', 'bulb', 'switch', 'philips', 'hue']):
             return 'Smart Lighting'
         
         # MAC address OUI lookup (simplified)
