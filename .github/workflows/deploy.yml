@@ -33,6 +33,9 @@ jobs:
       working-directory: apps/frontend
       run: npm run build
     
+    - name: Add .nojekyll
+      run: touch apps/frontend/dist/.nojekyll
+    
     - name: Setup Pages
       uses: actions/configure-pages@v4
     
