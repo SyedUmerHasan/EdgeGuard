@@ -1,0 +1,14 @@
+[Unit]
+Description=EdgeGuard API Server
+After=network.target
+
+[Service]
+Type=simple
+User=edgeguard
+WorkingDirectory=/opt/edgeguard
+ExecStart=/usr/bin/python3 -m uvicorn api.main:app --host 0.0.0.0 --port 8000
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

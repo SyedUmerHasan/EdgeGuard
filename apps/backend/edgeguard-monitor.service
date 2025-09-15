@@ -1,0 +1,14 @@
+[Unit]
+Description=EdgeGuard Network Monitoring Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/edgeguard
+ExecStart=/usr/bin/python3 /opt/edgeguard/service/monitor.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
