@@ -272,18 +272,18 @@ POST /api/block        # Block device
   <div className="col col--6">
     <div className="card">
       <div className="card__body">
-        <h3>🔌 API Reference</h3>
-        <p>Integrate EdgeGuard with your tools</p>
-        <a href="api" className="button button--primary">View API →</a>
+        <h3>📖 Usage Guide</h3>
+        <p>Learn how to use EdgeGuard effectively</p>
+        <a href="usage" className="button button--primary">Learn More →</a>
       </div>
     </div>
   </div>
   <div className="col col--6">
     <div className="card">
       <div className="card__body">
-        <h3>🤝 Contributing</h3>
-        <p>Help improve EdgeGuard</p>
-        <a href="contributing" className="button button--secondary">Contribute →</a>
+        <h3>⚙️ Configuration</h3>
+        <p>Customize EdgeGuard settings</p>
+        <a href="configuration" className="button button--secondary">Configure →</a>
       </div>
     </div>
   </div>

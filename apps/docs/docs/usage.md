@@ -42,7 +42,7 @@ sudo python3 main.py --stop
 
 :::tip Systemd Service
 
-For automatic startup, create a systemd service. See [deployment guide](deployment) for details.
+For automatic startup on boot, you can create a systemd service.
 
 :::
 
@@ -355,15 +355,6 @@ Visit: `http://localhost:8080`
         <h3>🏗️ Architecture</h3>
         <p>Understand how EdgeGuard works under the hood</p>
         <a href="architecture" className="button button--primary">View Architecture →</a>
-      </div>
-    </div>
-  </div>
-  <div className="col col--6">
-    <div className="card">
-      <div className="card__body">
-        <h3>🔧 Troubleshooting</h3>
-        <p>Solve common issues and problems</p>
-        <a href="troubleshooting" className="button button--secondary">Get Help →</a>
       </div>
     </div>
   </div>
