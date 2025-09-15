@@ -6,6 +6,9 @@ sidebar_position: 4
 
 Learn how to use EdgeGuard to protect your home network effectively.
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## Starting EdgeGuard
 
 ### Basic Start
