@@ -87,11 +87,19 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Resources',
           items: [
             {
-              label: 'Getting Started',
+              label: 'Documentation',
               to: '/docs/intro',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/SyedUmerHasan/EdgeGuard',
+            },
+            {
+              label: 'Download',
+              href: 'https://syedumerhasan.github.io/EdgeGuard/#download',
             },
           ],
         },
@@ -99,25 +107,16 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'GitHub Discussions',
-              href: 'https://github.com/SyedUmerHasan/EdgeGuard/discussions',
-            },
-            {
               label: 'Issues',
               href: 'https://github.com/SyedUmerHasan/EdgeGuard/issues',
             },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/SyedUmerHasan/EdgeGuard',
+              label: 'Discussions',
+              href: 'https://github.com/SyedUmerHasan/EdgeGuard/discussions',
             },
             {
-              label: 'Website',
-              href: 'https://syedumerhasan.github.io/EdgeGuard/',
+              label: 'Contributing',
+              href: 'https://github.com/SyedUmerHasan/EdgeGuard/blob/main/CONTRIBUTING.md',
             },
           ],
         },
