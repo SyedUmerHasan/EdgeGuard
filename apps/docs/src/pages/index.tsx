@@ -80,21 +80,25 @@ git clone https://github.com/SyedUmerHasan/EdgeGuard.git{'\n'}cd EdgeGuard{'\n'}
               </div>
               <div className="col col--6">
                 <div style={{background: 'white', padding: '2rem', borderRadius: '1rem', boxShadow: '0 4px 6px rgba(0,0,0,0.1)'}}>
-                  <h3 style={{marginBottom: '1rem'}}>System Requirements</h3>
-                  <ul style={{listStyle: 'none', padding: 0}}>
-                    <li style={{padding: '0.5rem 0', borderBottom: '1px solid #e2e8f0'}}>
-                      ✓ Python 3.8+
-                    </li>
-                    <li style={{padding: '0.5rem 0', borderBottom: '1px solid #e2e8f0'}}>
-                      ✓ Linux/macOS/WSL
-                    </li>
-                    <li style={{padding: '0.5rem 0', borderBottom: '1px solid #e2e8f0'}}>
-                      ✓ 2GB RAM minimum
-                    </li>
-                    <li style={{padding: '0.5rem 0'}}>
-                      ✓ Ollama with Llama 3.2
-                    </li>
-                  </ul>
+                  <h3 style={{marginBottom: '1.5rem', color: '#1e293b'}}>System Requirements</h3>
+                  <div style={{display: 'flex', flexDirection: 'column', gap: '1rem'}}>
+                    <div style={{display: 'flex', alignItems: 'center', gap: '0.75rem'}}>
+                      <span style={{color: '#10b981', fontSize: '1.25rem', fontWeight: 'bold'}}>✓</span>
+                      <span style={{color: '#64748b'}}>Python 3.8+</span>
+                    </div>
+                    <div style={{display: 'flex', alignItems: 'center', gap: '0.75rem'}}>
+                      <span style={{color: '#10b981', fontSize: '1.25rem', fontWeight: 'bold'}}>✓</span>
+                      <span style={{color: '#64748b'}}>Linux / macOS / WSL</span>
+                    </div>
+                    <div style={{display: 'flex', alignItems: 'center', gap: '0.75rem'}}>
+                      <span style={{color: '#10b981', fontSize: '1.25rem', fontWeight: 'bold'}}>✓</span>
+                      <span style={{color: '#64748b'}}>2GB RAM minimum</span>
+                    </div>
+                    <div style={{display: 'flex', alignItems: 'center', gap: '0.75rem'}}>
+                      <span style={{color: '#10b981', fontSize: '1.25rem', fontWeight: 'bold'}}>✓</span>
+                      <span style={{color: '#64748b'}}>Ollama with Llama 3.2</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
