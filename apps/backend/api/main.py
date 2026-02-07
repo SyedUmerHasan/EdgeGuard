@@ -6,7 +6,7 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).parent.parent))
 from shared.database import init_db
-from api.routes import devices, threats, stats, dns, connections, http, sites, websites
+from api.routes import devices, threats, stats, dns, connections, http, sites, websites, discover
 
 # Initialize database
 init_db()
@@ -35,6 +35,7 @@ app.include_router(connections.router)
 app.include_router(http.router)
 app.include_router(sites.router)
 app.include_router(websites.router, prefix="/websites", tags=["websites"])
+app.include_router(discover.router)
 
 @app.get("/")
 def root():
